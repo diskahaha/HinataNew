@@ -47,7 +47,7 @@ let pp = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
 *🧬 XP:* TOTAL ${exp} (${exp - min} / ${xp}) [${math <= 0 ? `Siap untuk *${usedPrefix}levelup*` : `${math} XP lagi untuk levelup`}]
 *📨 Terdaftar:* ${registered ? 'Ya (' + new Date(regTime).toLocaleString() + ')' : 'Tidak'} ${lastclaim > 0 ? '\n*⏱️Terakhir Klaim:* ' + new Date(lastclaim).toLocaleString() : ''}\n\n Ketik ${usedPrefix}inv untuk melihat Inventory RPG`
 
-let weem = `📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner`
+let weem = `Satu Dua Tutup Botol , Muka Klean Kek Kmtl 🤧🤧🤧`
 
   let buttonMessage= {
 'document': {'url': sgc},
