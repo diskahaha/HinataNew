@@ -12,10 +12,10 @@ global.owner = [
   ['62821220876725', '️Oᴡɴᴇʀ Four ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
   ['62821220876725', '️Oᴡɴᴇʀ Five ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
   ['62821220876725', '️Oᴡɴᴇʀ Six ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['62821220876725', '️Oᴡɴᴇʀ Seven ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['62821220876725', '️Oᴡɴᴇʀ Eight ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['62821220876725', '️Oᴡɴᴇʀ Nine ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['62821220876725', '️Oᴡɴᴇʀ Teen ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true]
+  ['6289512216858⁩', '️Oᴡɴᴇʀ Seven ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
+  ['6281275300645', '️Oᴡɴᴇʀ Eight ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
+  ['6285751318349', '️Oᴡɴᴇʀ Nine ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
+  ['6281296347598', '️Oᴡɴᴇʀ Teen ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true]
 ]
 global.mods = []
 global.prems = []
@@ -434,18 +434,18 @@ global.logo = 'https://i.pinimg.com/564x/f7/d2/e4/f7d2e48fd59a8c01cd396bfc70b0a2
 global.gcwangsaf = 'https://chat.whatsapp.com/Ce9COkckFJeLSPmymxkR5R'
 
 /*Donasi*/
-global.saweria = 'https://saweria.co/wudysoft'
+global.saweria = 'https://saweria.co/F'
 global.dana = ['082122087672']
 global.pulsa = ['082122087672']
-global.trakteer = 'https://trakteer.id/wudysoft'
-global.paypal = 'wudysoft@gmail.com'
+global.trakteer = 'https://trakteer.id/F'
+global.paypal = 'asede@gmail.com'
 global.gopay = '082122087672'
 global.pdana = '082122087672'
 global.povo = '082122087672'
 global.pgopay = '082122087672'
 global.ppulsa = '082122087672'
 global.ppulsa2 = '082122087672'
-global.psaweria = 'https://saweria.com/Wudysoft'
+global.psaweria = 'https://saweria.com/F'
 
 /*Emoji*/
 global.rpg = {
