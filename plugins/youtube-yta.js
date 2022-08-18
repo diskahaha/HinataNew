@@ -2,6 +2,10 @@ let limit = 80
 import fetch from 'node-fetch'
 import { youtubedl, youtubedlv2, youtubedlv3 } from '@bochilteam/scraper';
 let handler = async (m, { conn, args, isPrems, isOwner }) => {
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let pp = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
+let name = await conn.getName(who)
+
   if (!args || !args[0]) throw 'Uhm... urlnya mana?'
   let chat = global.db.data.chats[m.chat]
   const isY = /y(es)/gi.test(args[1])
@@ -42,8 +46,16 @@ let handler = async (m, { conn, args, isPrems, isOwner }) => {
 *${htjava} Filesize:* ${audio.fileSizeH}
 
 *L O A D I N G. . .*
-`.trim(), m, null, {
-    asDocument: true
+`.trim(), m, null, { fileLength: fsizedoc, seconds: fsizedoc, mimetype: 'audio/mp4', contextInfo: {
+          externalAdReply :{
+    mediaUrl: sig,
+    mediaType: 2,
+    description: wm, 
+    title: '👋 Hai, ' + name + ' ' + ucapan,
+    body: botdate,
+    thumbnail: await(await fetch(thumbnail)).buffer(),
+    sourceUrl: source
+     }}
   })
 }
 handler.help = ['mp3', 'a'].map(v => 'yt' + v + ` <url> <without message>`)
